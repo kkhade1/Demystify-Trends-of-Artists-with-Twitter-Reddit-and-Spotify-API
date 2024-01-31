@@ -20,8 +20,7 @@ def main_func():  # main function
     while(count < 50):
         url = 'https://api.twitter.com/1.1/search/tweets.json'
         params = {'q': "#spotify", 'lang' : 'en-US'}
-        auth = OAuth1('zcHMfBBa6WtQ2I3atoRHTCG52', 'VtDiAhRvPNK8mH0MHevJUONyhAhYpMYW3FNRw42qDUABPPyUjg', '1585031382513946629-3Fp7Vb92iEYmrQPNCQkDfCBWPl48nb',
-                    'ko8d8o10JQgtw8DX9I9PeV1oehMq9B2JvJMb9x0lYTngl')
+        
         r = requests.get(url, auth=auth, params=params)
         count +=1
         status = r.status_code
