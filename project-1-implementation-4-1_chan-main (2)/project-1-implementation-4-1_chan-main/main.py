@@ -35,8 +35,8 @@ main_func()
 
 date.fromisoformat('2022-01-01')
 
-CLIENT_ID = 'yEZsdJGImTtvHbTMzR727g'
-SECRET_KEY = 'kraCzqjEQ7b8E9-4zpVi5HSUYyrhBg'
+CLIENT_ID = 'yEZsd727g'
+SECRET_KEY = 'kraCzSUYyrhBg'
 
 auth = requests.auth.HTTPBasicAuth(CLIENT_ID, SECRET_KEY)
 
@@ -70,8 +70,8 @@ if len(post_list) > 0:
     for post in post_list:
         collection.insert_one({"id":i,"post":post['data']['title']})
         
-client_id = '513ca96b475d430299c5451af95af4ee'
-client_secret = 'd4832f2361da4bd8ac681396eb4e5cfd'
+client_id = '513ca9651af95af4ee'
+client_secret = 'd483296eb4e5cfd'
 
 class SpotifyAPI(object):
     access_token = None
