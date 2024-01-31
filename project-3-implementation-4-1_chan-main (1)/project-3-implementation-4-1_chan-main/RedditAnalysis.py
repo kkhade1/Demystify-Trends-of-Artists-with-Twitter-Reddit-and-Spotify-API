@@ -17,8 +17,8 @@ import json
 def getredditAnalysis():
         
 
-    CLIENT_ID = '7cf4b94fae0149c9ba21c0ab873cdf5c'
-    CLIENT_SECRET = 'bb34642c7356494fa59a377a39c4efe2'
+    CLIENT_ID = '7cf4b873cdf5c'
+    CLIENT_SECRET = 'bb3469c4efe2'
 
     AUTH_URL = 'https://accounts.spotify.com/api/token'
 
