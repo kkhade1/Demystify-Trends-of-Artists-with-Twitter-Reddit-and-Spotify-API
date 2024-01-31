@@ -7,8 +7,8 @@ import pandas as pd
 # Function for spotify data of 26th Nov 
 def gettwitterartist(date):
 
-    CLIENT_ID = '7cf4b94fae0149c9ba21c0ab873cdf5c'
-    CLIENT_SECRET = 'bb34642c7356494fa59a377a39c4efe2'
+    CLIENT_ID = ""
+    CLIENT_SECRET = ''
 
     AUTH_URL = 'https://accounts.spotify.com/api/token'
 
